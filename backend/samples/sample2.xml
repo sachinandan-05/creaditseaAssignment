@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml version="1.0" encoding="UTF-8"?>
+
+<INProfileResponse><ExperianReport>
+
+  <Current_Application>  <PersonalDetails>
+
+    <Current_Application_Details>    <Name>Jane Smith</Name>
+
+      <Current_Applicant_Details>    <Mobile>+919812345678</Mobile>
+
+        <First_Name>Jane</First_Name>    <PAN>XYZAB9876K</PAN>
+
+        <Last_Name>Smith</Last_Name>  </PersonalDetails>
+
+        <MobilePhoneNumber>+919812345678</MobilePhoneNumber>  <Score>680</Score>
+
+        <IncomeTaxPan>XYZAB9876K</IncomeTaxPan>  <Summary>
+
+      </Current_Applicant_Details>    <Accounts>2</Accounts>
+
+    </Current_Application_Details>    <Active>1</Active>
+
+  </Current_Application>    <Closed>1</Closed>
+
+  <SCORE>    <Balance>8000</Balance>
+
+    <BureauScore>680</BureauScore>    <SecuredAmount>3000</SecuredAmount>
+
+  </SCORE>    <UnsecuredAmount>5000</UnsecuredAmount>
+
+  <CAIS_Account>    <RecentEnquiries>0</RecentEnquiries>
+
+    <CAIS_Summary>  </Summary>
+
+      <Credit_Account>  <CreditAccounts>
+
+        <CreditAccountTotal>2</CreditAccountTotal>    <Account>
+
+        <CreditAccountActive>1</CreditAccountActive>      <Product>Credit Card</Product>
+
+        <CreditAccountClosed>1</CreditAccountClosed>      <Institution>HDFC</Institution>
+
+      </Credit_Account>      <AccountNo>CC-3333</AccountNo>
+
+      <Total_Outstanding_Balance>      <Branch>HDFC Branch</Branch>
+
+        <Outstanding_Balance_All>80000</Outstanding_Balance_All>      <Overdue>50</Overdue>
+
+        <Outstanding_Balance_Secured>30000</Outstanding_Balance_Secured>      <Balance>2000</Balance>
+
+        <Outstanding_Balance_UnSecured>50000</Outstanding_Balance_UnSecured>    </Account>
+
+      </Total_Outstanding_Balance>  </CreditAccounts>
+
+    </CAIS_Summary></ExperianReport>
+
+    <CAIS_Account_DETAILS>
+      <Subscriber_Name>HDFC Bank</Subscriber_Name>
+      <Account_Number>CC-3333</Account_Number>
+      <Account_Type>10</Account_Type>
+      <Current_Balance>20000</Current_Balance>
+      <Amount_Past_Due>500</Amount_Past_Due>
+      <CAIS_Holder_Address_Details>
+        <First_Line_Of_Address_non_normalized>123 Main St</First_Line_Of_Address_non_normalized>
+        <City_non_normalized>Delhi</City_non_normalized>
+      </CAIS_Holder_Address_Details>
+    </CAIS_Account_DETAILS>
+  </CAIS_Account>
+  <TotalCAPS_Summary>
+    <TotalCAPSLast7Days>0</TotalCAPSLast7Days>
+  </TotalCAPS_Summary>
+</INProfileResponse>

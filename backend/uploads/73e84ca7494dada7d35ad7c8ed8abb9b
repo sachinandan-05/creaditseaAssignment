@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml version="1.0" encoding="UTF-8"?>
+
+<INProfileResponse><ExperianReport>
+
+  <Current_Application>  <PersonalDetails>
+
+    <Current_Application_Details>    <Name>John Doe</Name>
+
+      <Current_Applicant_Details>    <Mobile>+919876543210</Mobile>
+
+        <First_Name>John</First_Name>    <PAN>ABCDE1234F</PAN>
+
+        <Last_Name>Doe</Last_Name>  </PersonalDetails>
+
+        <MobilePhoneNumber>+919876543210</MobilePhoneNumber>  <CreditScore>720</CreditScore>
+
+        <IncomeTaxPan>ABCDE1234F</IncomeTaxPan>  <Summary>
+
+      </Current_Applicant_Details>    <TotalAccounts>3</TotalAccounts>
+
+    </Current_Application_Details>    <ActiveAccounts>2</ActiveAccounts>
+
+  </Current_Application>    <ClosedAccounts>1</ClosedAccounts>
+
+  <SCORE>    <CurrentBalance>15000</CurrentBalance>
+
+    <BureauScore>720</BureauScore>    <SecuredAmount>5000</SecuredAmount>
+
+    <BureauScoreConfidLevel>H</BureauScoreConfidLevel>    <UnsecuredAmount>10000</UnsecuredAmount>
+
+  </SCORE>    <EnquiriesLast7Days>1</EnquiriesLast7Days>
+
+  <CAIS_Account>  </Summary>
+
+    <CAIS_Summary>  <Accounts>
+
+      <Credit_Account>    <Account>
+
+        <CreditAccountTotal>3</CreditAccountTotal>      <Type>Credit Card</Type>
+
+        <CreditAccountActive>2</CreditAccountActive>      <Bank>Axis Bank</Bank>
+
+        <CreditAccountClosed>1</CreditAccountClosed>      <AccountNumber>XXXX-1111</AccountNumber>
+
+      </Credit_Account>      <Address>Axis Bank Branch</Address>
+
+      <Total_Outstanding_Balance>      <AmountOverdue>0</AmountOverdue>
+
+        <Outstanding_Balance_All>150000</Outstanding_Balance_All>      <CurrentBalance>5000</CurrentBalance>
+
+        <Outstanding_Balance_Secured>50000</Outstanding_Balance_Secured>    </Account>
+
+        <Outstanding_Balance_UnSecured>100000</Outstanding_Balance_UnSecured>    <Account>
+
+      </Total_Outstanding_Balance>      <Type>Personal Loan</Type>
+
+    </CAIS_Summary>      <Bank>SBI</Bank>
+
+    <CAIS_Account_DETAILS>      <AccountNumber>PL-2222</AccountNumber>
+
+      <Subscriber_Name>Axis Bank</Subscriber_Name>      <Address>SBI Branch</Address>
+
+      <Account_Number>XXXX-1111</Account_Number>      <AmountOverdue>200</AmountOverdue>
+
+      <Account_Type>10</Account_Type>      <CurrentBalance>10000</CurrentBalance>
+
+      <Current_Balance>50000</Current_Balance>    </Account>
+
+      <Amount_Past_Due>0</Amount_Past_Due>  </Accounts>
+
+      <CAIS_Holder_Address_Details></ExperianReport>
+
+        <City_non_normalized>Mumbai</City_non_normalized>
+      </CAIS_Holder_Address_Details>
+    </CAIS_Account_DETAILS>
+  </CAIS_Account>
+  <TotalCAPS_Summary>
+    <TotalCAPSLast7Days>1</TotalCAPSLast7Days>
+  </TotalCAPS_Summary>
+</INProfileResponse>
