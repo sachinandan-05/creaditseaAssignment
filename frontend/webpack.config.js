@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const webpack = require('webpack');
+require('dotenv').config();
 
 module.exports = {
   entry: path.resolve(__dirname, 'src', 'index.jsx'),
@@ -36,10 +38,18 @@ module.exports = {
         },
       ],
     }),
+    new webpack.DefinePlugin({
+      'process.env.REACT_APP_API_URL': JSON.stringify(process.env.REACT_APP_API_URL || 'http://localhost:6000')
+    }),
   ],
   devServer: { 
     historyApiFallback: true, 
     port: 3000,
-    proxy: [{ context: ['/api'], target: 'http://localhost:6000' }],
+    proxy: [{ 
+      context: ['/api'], 
+      target: process.env.REACT_APP_API_URL || 'http://localhost:6000',
+      changeOrigin: true,
+      secure: false
+    }],
   },
 };
